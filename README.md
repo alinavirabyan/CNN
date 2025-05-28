@@ -71,7 +71,7 @@ This model is trained to detect 20 object classes from the Pascal VOC dataset, i
 | Notebook                  | Image Size | Batch Size | Epochs        | Precision  | Recall     | mAP\@0.5   | Link                                                             |
 | ------------------------- | ---------- | ---------- | ------------- | ---------- | ---------- | ---------- | ---------------------------------------------------------------- |
 | `3.ipynb` *(Best Result)* | 640        | 16         | 200(ES)       | **0.7144** | **0.6255** | **0.6550** | [View](https://github.com/alinavirabyan/CNN/blob/main/3.ipynb)   |
-| `3_2.ipynb`               | 1024       | 16         | 40(ES)        | 0.6841     | 0.4868     | 0.5912     | [View](https://github.com/alinavirabyan/CNN/blob/main/3_2.ipynb) |
+| `3_2.ipynb`               | 1024       | 16         | 40            | 0.6841     | 0.4868     | 0.5912     | [View](https://github.com/alinavirabyan/CNN/blob/main/3_2.ipynb) |
 | `3_1.ipynb`               | 640        | 32         | 150           | 0.6404     | 0.5944     | 0.6260     | [View](https://github.com/alinavirabyan/CNN/blob/main/3_1.ipynb) |
 
 
