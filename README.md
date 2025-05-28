@@ -60,7 +60,9 @@ Loads the best model checkpoint.
 Allows user to upload an image and performs object detection on it.
 Visualizes the detection results with bounding boxes and class labels.
 
-![image](https://github.com/user-attachments/assets/fc75dfc8-3200-4799-9050-0439773de1ed)
+![image](https://github.com/user-attachments/assets/175c9c00-711b-4fbc-8be2-5e6ea0badc2e)
+
+
 The "Losses over Epochs" graph shows how the model's errors decrease as it trains over time. Lower box and classification losses indicate that the model is improving in both locating and correctly identifying objects.
 
 ![image](https://github.com/user-attachments/assets/d12b281a-0e65-4350-b18b-b921515bda4c)
