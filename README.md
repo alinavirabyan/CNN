@@ -75,7 +75,11 @@ This model is trained to detect 20 object classes from the Pascal VOC dataset, i
 | `3_1.ipynb`               | 640        | 32         | 150           | 0.6404     | 0.5944     | 0.6260     | [View](https://github.com/alinavirabyan/CNN/blob/main/3_1.ipynb) |
 
 
+The three models used identical tasks and datasets but varied in hyperparameters like **image size**, **batch size**, and **training duration**, which significantly influenced performance. The model in [`3.ipynb`](https://github.com/alinavirabyan/CNN/blob/main/3.ipynb), using an image size of **640**, a batch size of **16**, and trained for **200 epochs**, achieved the best results with a **Precision of 0.7144**, **Recall of 0.6255**, and **mAP@0.5 of 0.6550**. In contrast, [`3_2.ipynb`](https://github.com/alinavirabyan/CNN/blob/main/3_2.ipynb) increased the image size to **1024** but kept the batch size at **16**, which led to higher precision (**0.6841**) but a drop in recall (**0.4868**) and mAP (**0.5912**), likely due to fewer epochs or slower convergence. The model in [`3_1.ipynb`](https://github.com/alinavirabyan/CNN/blob/main/3_1.ipynb) used a larger batch size (**32**) with the default image size (**640**) and 150 epochs, achieving balanced results but slightly lower precision and mAP than `3.ipynb`. This comparison highlights how a smaller batch size with more training time tends to generalize better for object detection using YOLOv8 on Pascal VOC.
 
+
+## Conclusion
+Through comparing multiple training configurations of YOLOv8 on the Pascal VOC dataset, we found that careful tuning of hyperparameters significantly affects detection performance. The model trained in 3.ipynb with a moderate image size, smaller batch size, and longer training time achieved the best balance of precision, recall, and mAP@0.5, proving to be the most effective setup. This suggests that, for this dataset, smaller batch sizes and sufficient training epochs contribute to better generalization and overall accuracy. Future improvements could explore additional augmentations, different YOLO variants, or transfer learning from larger pretrained weights.
 
 
 
