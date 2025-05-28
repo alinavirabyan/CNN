@@ -66,6 +66,7 @@ Visualizes the detection results with bounding boxes and class labels.
 The "Losses over Epochs" graph shows how the model's errors decrease as it trains over time. Lower box and classification losses indicate that the model is improving in both locating and correctly identifying objects.
 
 ![image](https://github.com/user-attachments/assets/d12b281a-0e65-4350-b18b-b921515bda4c)
+
 The "Precision, Recall, and mAP over Epochs" graph shows how the model's detection performance improves throughout training. Increasing values indicate better accuracy in identifying objects (precision), finding all relevant objects (recall), and overall detection quality (mAP).
 
 This model is trained to detect 20 object classes from the Pascal VOC dataset, including **person, car, dog, cat, bicycle, airplane, chair, and more**. These classes are defined in the code and used throughout the training and evaluation process.
